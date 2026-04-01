@@ -43,3 +43,6 @@ public class TextAnalyzer {
         String sentence = input.nextLine();
 
         System.out.println("Vowels (ignoring spaces): " +
+       countVowels(sentence, true));
+    }
+}
